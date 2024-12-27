@@ -12,13 +12,14 @@ python app.py: The command to start your Flask app.
 Replace app.py with the name of your Python file if it's named differently.
 
 
+
 HOW TO CREATE A PROCFILE? ===================================================================================
 
-Open Your Project Folder:
+1. Open Your Project Folder:
 
-Navigate to the folder where your Flask app is located (the same place as your app.py file).
+2. Navigate to the folder where your Flask app is located (the same place as your app.py file).
 
-Create the Procfile:
+3. Create the Procfile:
 
 If you're using a text editor like VSCode or Notepad:
 Create a new file and name it exactly Procfile (no file extension like .txt).
@@ -26,14 +27,40 @@ If you're using the terminal/command line:
 
 touch Procfile
 
-Add the Command:
+4. Add the Command:
 
 Open the Procfile and add the line:
 
 web: python app.py
 
-Save the File:
+5. Save the File:
 
 Save and close the file.
 
+
+
+MAKING CHANGES TO LANDING PAGE AND PREVIEWING IT? ===================================================================================
+
+1. Open Your Project in VS Code:
+
+Ensure the project files for your landing page are opened in VS Code.
+
+2. Modify Your Code:
+
+Make any changes to your HTML, CSS, or Flask app.py files.
+
+3. Preview Changes Locally:
+
+Run Flask Locally:
+Open the VS Code terminal and activate your virtual environment (if required).
+Run the following command to start your Flask app:
+
+python app.py
+
+The terminal will show an address like http://127.0.0.1:5000/. 
+Open this in your browser to preview the changes.
+
+4. Test the Changes:
+
+Navigate through the locally running app to ensure everything works as expected.
 
